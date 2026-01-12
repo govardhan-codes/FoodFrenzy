@@ -28,6 +28,7 @@ public class HomeController
 		model.addAttribute("products", allProducts);
 		return "Products";
 	}
+	
 
 	@GetMapping("/location")
 	public String location()

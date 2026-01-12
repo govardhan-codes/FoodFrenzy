@@ -15,4 +15,10 @@ import com.example.demo.services.OrderServices;
 @Controller
 public class OrderController {
 
+	
+	@GetMapping("/services")
+	public String servicesPage() {
+	    return "services";
+	}
+
 }
